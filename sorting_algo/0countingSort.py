@@ -6,7 +6,6 @@
  #time complecixty: O(n+k)
  #memory complexity: O(n+k)
 def countsort(A, k):
-
     # create an integer list of size `n` to store the sorted list
     output = [0] * len(A)
     # create an integer list of size `k + 1`, initialized by all zero
